@@ -98,3 +98,32 @@ classDef screen fill:#8a9b68,color:#ffffff,stroke:#2b2620,stroke-width:2px;
 	class B,E action;
 
 ```
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:BCCCAF,100:8CA084&height=60&section=header&text=Add%20Workflow&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+</p>
+
+You can add a visual, horizontal workflow diagram using **[Mermaid](https://mermaid.js.org/)** — GitHub renders it automatically, no image or external tool needed.
+
+**Steps:**
+
+1. Open your `README.md` file and decide where the workflow should appear.
+
+2. Add a code block starting with ` ```mermaid ` and define your flow using `flowchart LR` (left-to-right).
+
+3. List each step as a labeled box, connecting them with arrows (`-->`).
+
+4. Save, commit, and push — GitHub will render it as a live diagram.
+
+**Demo:**
+
+```mermaid
+flowchart LR
+    A[Open README file] --> B[Add mermaid code block]
+    B --> C[Define steps with arrows]
+    D[Commit & Push] --> E[Workflow live!]
+    C --> D
+classDef screen fill:#8a9b68,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+	classDef action fill:#d5ddbc,color:#2b2620,stroke:#6f7d4a,stroke-width:2px;
+	class A,C,E screen;
+	class B,D action;
+```
