@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:BCCCAF,100:8CA084&height=60&section=header&text=Adding%20an%20Animated%20Header%20Banner&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:BCCCAF,100:8CA084&height=60&section=header&text=Adding%20an%20Animated%20Header%20Banner&fontSize=22&fontColor=ffffff&fontAlignY=65" />
 </p>
 
 You can add a stylish animated banner to the top of your README using **[Capsule Render](https://capsule-render.vercel.app/)** — no design tool needed.
@@ -23,29 +23,35 @@ You can add a stylish animated banner to the top of your README using **[Capsule
 ```
 
 Save, commit, and push — your animated header banner will now show up live on GitHub.
+
+**Demo:**
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Project%20Title" alt="Project Banner" />
 </p>
 
-### 🔄 Workflow
+**Workflow:**
 
 ```mermaid
 flowchart LR
-    A[🌐 Open Capsule Render Link] --> B[✏️ Add Project Name]
-    B --> C[🔗 Copy Final URL]
-    C --> D[📋 Paste HTML in README]
-    D --> E[🚀 Commit & Push]
-    E --> F[✅ Banner Live!]
+    A[Open Capsule Render Link] --> B[Add Project Name]
+    B --> C[Copy Final URL]
+    C --> D[Paste HTML in README]
+    D --> E[Commit and Push]
+    E --> F[Banner Live!]
 classDef screen fill:#8a9b68,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-	classDef action fill:#d5ddbc,color:#2b2620,stroke:#6f7d4a,stroke-width:2px;
-	class A,C,D,F screen;
-	class B,E action;
-
+classDef action fill:#d5ddbc,color:#2b2620,stroke:#6f7d4a,stroke-width:2px;
+class A,C,D,F screen;
+class B,E action;
 ```
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:BCCCAF,100:8CA084&height=60&section=header&text=Adding%20Tech%20Stack%20Badges&fontSize=22&fontColor=ffffff&fontAlignY=65" />
 
-  You can showcase your project's technologies using **[Shields.io](https://shields.io/)** — clean, colorful badges for every tool in your stack.
+<br><br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9C9D9,100:6F9CB3&height=60&section=header&text=Adding%20Tech%20Stack%20Badges&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+</p>
+
+You can showcase your project's technologies using **[Shields.io](https://shields.io/)** — clean, colorful badges for every tool in your stack.
 
 **Steps:**
 
@@ -64,7 +70,11 @@ classDef screen fill:#8a9b68,color:#ffffff,stroke:#2b2620,stroke-width:2px;
      <img src="PASTE_YOUR_BADGE_LINK_HERE" />
    </p>
 ```
-Save, commit, and push — your animated header banner will now show up live on GitHub.
+
+Save, commit, and push — your badges will now show up live on GitHub.
+
+**Demo:**
+
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
@@ -90,16 +100,18 @@ flowchart LR
     A[List technologies used] --> B[Generate badge URL]
     B --> C[Find logo name on Simple Icons]
     C --> D[Paste HTML in README]
-    D --> E[Commit & Push]
+    D --> E[Commit and Push]
     E --> F[Badges live!]
-classDef screen fill:#8a9b68,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-	classDef action fill:#d5ddbc,color:#2b2620,stroke:#6f7d4a,stroke-width:2px;
-	class A,C,D,F screen;
-	class B,E action;
-
+classDef screen fill:#4a7d94,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#bcdbe8,color:#2b2620,stroke:#4a7d94,stroke-width:2px;
+class A,C,D,F screen;
+class B,E action;
 ```
+
+<br><br>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:BCCCAF,100:8CA084&height=60&section=header&text=Add%20Workflow&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:D9B9A9,100:B37F6F&height=60&section=header&text=Add%20Workflow&fontSize=22&fontColor=ffffff&fontAlignY=65" />
 </p>
 
 You can add a visual, horizontal workflow diagram using **[Mermaid](https://mermaid.js.org/)** — GitHub renders it automatically, no image or external tool needed.
@@ -120,10 +132,92 @@ You can add a visual, horizontal workflow diagram using **[Mermaid](https://merm
 flowchart LR
     A[Open README file] --> B[Add mermaid code block]
     B --> C[Define steps with arrows]
-    D[Commit & Push] --> E[Workflow live!]
+    D[Commit and Push] --> E[Workflow live!]
     C --> D
-classDef screen fill:#8a9b68,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-	classDef action fill:#d5ddbc,color:#2b2620,stroke:#6f7d4a,stroke-width:2px;
-	class A,C,E screen;
-	class B,D action;
+classDef screen fill:#946f4a,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#e8d2bc,color:#2b2620,stroke:#946f4a,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+
+<br><br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:C9A9D9,100:9C6FB3&height=60&section=header&text=Architecture%20at%20a%20Glance&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+</p>
+
+You can visualize your project's structure using **[Mermaid](https://mermaid.js.org/)** — showing how different parts (frontend, backend, database) connect, directly inside your README.
+
+**Steps:**
+
+1. Identify the main components of your project (e.g. Client, Server, Database, APIs).
+
+2. Open your `README.md` and add a code block starting with ` ```mermaid `.
+
+3. Use `flowchart TD` (top-down) to show layers, connecting each component with arrows to show data/request flow.
+
+4. Save, commit, and push — GitHub will render it as a live architecture diagram.
+
+**Demo:**
+
+```mermaid
+flowchart TD
+    A[Client / Frontend] --> B[Server / Backend API]
+    B --> C[(Database)]
+    B --> D[Third-Party Services]
+classDef screen fill:#7d4a94,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#dbbce8,color:#2b2620,stroke:#7d4a94,stroke-width:2px;
+class A,C screen;
+class B,D action;
+```
+
+<br><br>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9D9C4,100:6FB39A&height=60&section=header&text=Project%20Structure&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+</p>
+
+A clean, well-organized folder structure makes your project easy to navigate for anyone who opens the repo — including future you.
+
+**Steps:**
+
+1. Decide your top-level folders (e.g. `client`, `server`, `docs`, `config`).
+
+2. Inside your `README.md`, add a fenced code block using triple backticks and no language tag, so indentation stays intact.
+
+3. Use tree-style symbols (`├──`, `└──`, `│`) to represent nesting — you can type these manually or copy them from an existing tree.
+
+4. Save, commit, and push — GitHub will display it as a clean, monospaced folder tree.
+
+**Demo:**
+```
+project-root/
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.js
+│   └── package.json
+├── server/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+├── config/
+│   └── db.js
+├── .env
+├── .gitignore
+└── README.md
+```
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Decide top-level folders] --> B[Open README code block]
+    B --> C[Draw tree with symbols]
+    D[Commit and Push] --> E[Structure live!]
+    C --> D
+classDef screen fill:#4a946f,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#bce8d2,color:#2b2620,stroke:#4a946f,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
 ```
