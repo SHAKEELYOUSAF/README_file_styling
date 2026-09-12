@@ -1,4 +1,7 @@
-### 🎨 Adding an Animated Header Banner
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=speech&height=248&color=b8e0ab&text=README%2O%2O%20Styling&fontSize=0&descAlign=37&animation=twinkling&fontAlign=50" alt="Project Banner" />
+</p>
+### Adding an Animated Header Banner
 
 You can add a stylish animated banner to the top of your README using **[Capsule Render](https://capsule-render.vercel.app/)** — no design tool needed.
 
@@ -35,3 +38,8 @@ flowchart LR
     D --> E[🚀 Commit & Push]
     E --> F[✅ Banner Live!]
 ```
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p>
