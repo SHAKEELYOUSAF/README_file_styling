@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:BCCCAF,100:8CA084&height=60&section=header&text=Adding%20an%20Animated%20Header%20Banner&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:BCCCAF,100:8CA084&height=90&section=header&text=Adding%20an%20Animated%20Header%20Banner&fontSize=22&fontColor=ffffff&fontAlignY=40" />
 </p>
 
 You can add a stylish animated banner to the top of your README using **[Capsule Render](https://capsule-render.vercel.app/)** — no design tool needed.
@@ -27,9 +27,12 @@ Save, commit, and push — your animated header banner will now show up live on 
 **Demo:**
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Project%20Title" alt="Project Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=bcd9a5&text=Project%20Title&fontSize=60&descAlign=37&animation=twinkling&fontColor=ffffff&fontAlign=50&section=header" />
+ <p align="center"> ALL your content of Readme between these Ok.</p>
 </p>
-
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=bcd9a5&fontSize=60&descAlign=37&animation=twinkling&fontColor=ffffff&fontAlign=50&section=footer" />
+</p>
 **Workflow:**
 
 ```mermaid
@@ -45,47 +48,10 @@ class A,C,D,F screen;
 class B,E action;
 ```
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9D9BC,100:6FB38F&height=60&section=header&text=Color%20Reference&fontSize=22&fontColor=ffffff&fontAlignY=65" />
-</p>
-
-If your project has a design system, listing your color palette helps contributors stay visually consistent.
-
-**Steps:**
-
-1. Identify your main color palette (primary, secondary, background, text colors).
-
-2. Create a Markdown table with color name, hex code, and a visual swatch.
-
-3. Use a small colored square image or emoji block for the swatch column.
-
-4. Save, commit, and push.
-
-**Demo:**
-
-| Color | Hex |
-|-------|-----|
-| ![#BCCCAF](https://placehold.co/15x15/BCCCAF/BCCCAF.png) Primary | `#BCCCAF` |
-| ![#8CA084](https://placehold.co/15x15/8CA084/8CA084.png) Secondary | `#8CA084` |
-| ![#2B2620](https://placehold.co/15x15/2B2620/2B2620.png) Text | `#2B2620` |
-
-**Workflow:**
-
-```mermaid
-flowchart LR
-    A[Identify color palette] --> B[Build Markdown table]
-    B --> C[Add color swatches]
-    C --> D[Commit and Push]
-    D --> E[Color reference live!]
-classDef screen fill:#4a9470,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-classDef action fill:#bce8d2,color:#2b2620,stroke:#4a9470,stroke-width:2px;
-class A,C,E screen;
-class B,D action;
-```
 <br><br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9C9D9,100:6F9CB3&height=60&section=header&text=Adding%20Tech%20Stack%20Badges&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A9C9D9,100:6F9CB3&height=90&section=header&text=Adding%20Tech%20Stack%20Badges&fontSize=22&fontColor=ffffff&fontAlignY=40" />
 </p>
 
 You can showcase your project's technologies using **[Shields.io](https://shields.io/)** — clean, colorful badges for every tool in your stack.
@@ -148,7 +114,7 @@ class B,E action;
 <br><br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:D9B9A9,100:B37F6F&height=60&section=header&text=Add%20Workflow&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:D9B9A9,100:B37F6F&height=90&section=header&text=Add%20Workflow&fontSize=22&fontColor=ffffff&fontAlignY=40" />
 </p>
 
 You can add a visual, horizontal workflow diagram using **[Mermaid](https://mermaid.js.org/)** — GitHub renders it automatically, no image or external tool needed.
@@ -180,7 +146,7 @@ class B,D action;
 <br><br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:C9A9D9,100:9C6FB3&height=60&section=header&text=Architecture%20at%20a%20Glance&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:C9A9D9,100:9C6FB3&height=90&section=header&text=Architecture%20at%20a%20Glance&fontSize=22&fontColor=ffffff&fontAlignY=40" />
 </p>
 
 You can visualize your project's structure using **[Mermaid](https://mermaid.js.org/)** — showing how different parts (frontend, backend, database) connect, directly inside your README.
@@ -209,8 +175,9 @@ class B,D action;
 ```
 
 <br><br>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9D9C4,100:6FB39A&height=60&section=header&text=Project%20Structure&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A9D9C4,100:6FB39A&height=90&section=header&text=Project%20Structure&fontSize=22&fontColor=ffffff&fontAlignY=40" />
 </p>
 
 A clean, well-organized folder structure makes your project easy to navigate for anyone who opens the repo — including future you.
@@ -226,6 +193,7 @@ A clean, well-organized folder structure makes your project easy to navigate for
 4. Save, commit, and push — GitHub will display it as a clean, monospaced folder tree.
 
 **Demo:**
+
 ```
 project-root/
 ├── client/
@@ -245,6 +213,7 @@ project-root/
 ├── .gitignore
 └── README.md
 ```
+
 **Workflow:**
 
 ```mermaid
@@ -258,8 +227,51 @@ classDef action fill:#bce8d2,color:#2b2620,stroke:#4a946f,stroke-width:2px;
 class A,C,E screen;
 class B,D action;
 ```
+
+<br><br>
+
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9C4D9,100:6F9AB3&height=60&section=header&text=API%20Reference&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A9D9BC,100:6FB38F&height=90&section=header&text=Color%20Reference&fontSize=22&fontColor=ffffff&fontAlignY=40" />
+</p>
+
+If your project has a design system, listing your color palette helps contributors stay visually consistent.
+
+**Steps:**
+
+1. Identify your main color palette (primary, secondary, background, text colors).
+
+2. Create a Markdown table with color name, hex code, and a visual swatch.
+
+3. Use a small colored square image or emoji block for the swatch column.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+| Color | Hex |
+|-------|-----|
+| ![#BCCCAF](https://placehold.co/15x15/BCCCAF/BCCCAF.png) Primary | `#BCCCAF` |
+| ![#8CA084](https://placehold.co/15x15/8CA084/8CA084.png) Secondary | `#8CA084` |
+| ![#2B2620](https://placehold.co/15x15/2B2620/2B2620.png) Text | `#2B2620` |
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Identify color palette] --> B[Build Markdown table]
+    B --> C[Add color swatches]
+    C --> D[Commit and Push]
+    D --> E[Color reference live!]
+classDef screen fill:#4a9470,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#bce8d2,color:#2b2620,stroke:#4a9470,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+
+<br><br>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A9C4D9,100:6F9AB3&height=90&section=header&text=API%20Reference&fontSize=22&fontColor=ffffff&fontAlignY=40" />
 </p>
 
 Document your API endpoints clearly so other developers know how to interact with your backend.
@@ -275,7 +287,10 @@ Document your API endpoints clearly so other developers know how to interact wit
 4. Save, commit, and push — your API docs will render cleanly on GitHub.
 
 **Demo:**
+
+```
 GET /api/users
+```
 Returns a list of all users.
 
 **Response:**
@@ -301,267 +316,11 @@ classDef action fill:#bcdbe8,color:#2b2620,stroke:#4a7d94,stroke-width:2px;
 class A,C,E screen;
 class B,D action;
 ```
+
+<br><br>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:D9C4A9,100:B3946F&height=60&section=header&text=Appendix&fontSize=22&fontColor=ffffff&fontAlignY=65" />
-</p>
-
-Use the appendix for extra reference material that doesn't fit neatly into the main sections — glossaries, extended notes, or related links.
-
-**Steps:**
-
-1. Identify any extra details, definitions, or references your README doesn't cover elsewhere.
-
-2. Add a heading titled "Appendix" near the bottom of your README.
-
-3. List supplementary content using bullet points or sub-headings.
-
-4. Save, commit, and push.
-
-**Demo:**
-
-- **Glossary:** JWT — JSON Web Token, used for authentication
-- **Related Docs:** [Link to external documentation]
-- **Additional Notes:** Any edge cases or known limitations
-
-**Workflow:**
-
-```mermaid
-flowchart LR
-    A[Gather extra reference info] --> B[Add Appendix heading]
-    B --> C[List as bullets or sub-sections]
-    C --> D[Commit and Push]
-    D --> E[Appendix live!]
-classDef screen fill:#94704a,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-classDef action fill:#e8d5bc,color:#2b2620,stroke:#94704a,stroke-width:2px;
-class A,C,E screen;
-class B,D action;
-```
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:D9CBA9,100:B3A06F&height=60&section=header&text=Contributing&fontSize=22&fontColor=ffffff&fontAlignY=65" />
-</p>
-
-Let others know how they can contribute to your project — pull requests, issues, and coding standards.
-
-**Steps:**
-
-1. Explain how to fork and clone the repository.
-
-2. List the branch naming convention and commit message style you expect.
-
-3. Explain how to open a pull request and what checks it must pass.
-
-4. Save, commit, and push.
-
-**Demo:**
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
-
-**Workflow:**
-
-```mermaid
-flowchart LR
-    A[Fork repository] --> B[Create feature branch]
-    B --> C[Commit changes]
-    C --> D[Push and open PR]
-    D --> E[PR reviewed and merged!]
-classDef screen fill:#94804a,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-classDef action fill:#e8ddbc,color:#2b2620,stroke:#94804a,stroke-width:2px;
-class A,C,E screen;
-class B,D action;
-```
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9BCD9,100:6F8FB3&height=60&section=header&text=Demo&fontSize=22&fontColor=ffffff&fontAlignY=65" />
-</p>
-
-Show your project in action with a screenshot, GIF, or live link — this is often the first thing people look at.
-
-**Steps:**
-
-1. Take a screenshot or screen recording of your app (use tools like ScreenToGif or Kap for GIFs).
-
-2. Upload the image/GIF to your repo (e.g. an `assets` folder) or host it externally.
-
-3. Embed it using Markdown image syntax.
-
-4. Save, commit, and push.
-
-**Demo:**
-
-```markdown
-![App Demo](assets/demo.gif)
-```
-
-Or link to a live deployed version:
-
-```markdown
-🔗 [Live Demo](https://your-deployed-app.com)
-```
-
-**Workflow:**
-
-```mermaid
-flowchart LR
-    A[Record screenshot or GIF] --> B[Add to repo or host]
-    B --> C[Embed with Markdown]
-    C --> D[Commit and Push]
-    D --> E[Demo visible!]
-classDef screen fill:#4a6f94,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-classDef action fill:#bcd0e8,color:#2b2620,stroke:#4a6f94,stroke-width:2px;
-class A,C,E screen;
-class B,D action;
-```
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:C4D9A9,100:9AB36F&height=60&section=header&text=Deployment&fontSize=22&fontColor=ffffff&fontAlignY=65" />
-</p>
-
-Explain how to deploy your project so others can get it running in production.
-
-**Steps:**
-
-1. List the platforms used (e.g. Vercel for frontend, Render for backend, MongoDB Atlas for database).
-
-2. Add the exact commands or steps needed to deploy each part.
-
-3. Mention any required environment variables for deployment.
-
-4. Save, commit, and push.
-
-**Demo:**
-
-```bash
-# Build the frontend
-npm run build
-
-# Deploy to Vercel
-vercel --prod
-```
-
-**Workflow:**
-
-```mermaid
-flowchart LR
-    A[Choose hosting platforms] --> B[Set environment variables]
-    B --> C[Run build and deploy commands]
-    C --> D[Commit and Push]
-    D --> E[App live in production!]
-classDef screen fill:#6f9440,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-classDef action fill:#d2e8bc,color:#2b2620,stroke:#6f9440,stroke-width:2px;
-class A,C,E screen;
-class B,D action;
-```
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:B3A9D9,100:816FB3&height=60&section=header&text=Documentation&fontSize=22&fontColor=ffffff&fontAlignY=65" />
-</p>
-
-Link out to detailed documentation for setup, usage, or advanced configuration if your README alone isn't enough.
-
-**Steps:**
-
-1. Decide if documentation lives in a `/docs` folder, a wiki, or an external site.
-
-2. Add a short description of what the docs cover.
-
-3. Link directly to the documentation.
-
-4. Save, commit, and push.
-
-**Demo:**
-
-📚 Full documentation is available [here](./docs/README.md).
-
-**Workflow:**
-
-```mermaid
-flowchart LR
-    A[Organize docs location] --> B[Write short summary]
-    B --> C[Add documentation link]
-    C --> D[Commit and Push]
-    D --> E[Docs linked!]
-classDef screen fill:#6f4a94,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-classDef action fill:#d2bce8,color:#2b2620,stroke:#6f4a94,stroke-width:2px;
-class A,C,E screen;
-class B,D action;
-```
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:BCD9D9,100:6FB3B3&height=60&section=header&text=FAQ&fontSize=22&fontColor=ffffff&fontAlignY=65" />
-</p>
-
-Answer common questions users or contributors might have about your project.
-
-**Steps:**
-
-1. Collect the questions you're most often asked about the project.
-
-2. Format each as a bold question followed by a short answer.
-
-3. Keep answers concise — link to detailed docs for longer explanations.
-
-4. Save, commit, and push.
-
-**Demo:**
-
-**Q: How do I reset my database?**  
-A: Run `npm run seed` to reset and repopulate sample data.
-
-**Q: Can I use this without MongoDB?**  
-A: Currently no, MongoDB is required as the primary database.
-
-**Workflow:**
-
-```mermaid
-flowchart LR
-    A[Collect common questions] --> B[Write concise answers]
-    B --> C[Format as Q and A]
-    C --> D[Commit and Push]
-    D --> E[FAQ live!]
-classDef screen fill:#4a9494,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-classDef action fill:#bce8e8,color:#2b2620,stroke:#4a9494,stroke-width:2px;
-class A,C,E screen;
-class B,D action;
-
-
-```
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:D9D0A9,100:B3A56F&height=60&section=header&text=Lessons%20Learned&fontSize=22&fontColor=ffffff&fontAlignY=65" />
-</p>
-
-Share the key challenges you faced and what you learned while building the project — helpful for your own growth and for others in similar situations.
-
-**Steps:**
-
-1. Reflect on the hardest problems you solved during development.
-
-2. Note what approach worked, and what you'd do differently next time.
-
-3. Write each as a short bullet point under a "Lessons Learned" heading.
-
-4. Save, commit, and push.
-
-**Demo:**
-
-- Learned how to structure JWT-based authentication securely across client and server
-- Realized early schema planning saves major refactoring time later
-- Improved error handling by centralizing it in Express middleware
-
-**Workflow:**
-
-```mermaid
-flowchart LR
-    A[Reflect on challenges] --> B[Note what worked or didn't]
-    B --> C[Write as bullet points]
-    C --> D[Commit and Push]
-    D --> E[Lessons documented!]
-classDef screen fill:#948a4a,color:#ffffff,stroke:#2b2620,stroke-width:2px;
-classDef action fill:#e8e0bc,color:#2b2620,stroke:#948a4a,stroke-width:2px;
-class A,C,E screen;
-class B,D action;
-```
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9C4A9,100:6F9A6F&height=60&section=header&text=Run%20Locally&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A9C4A9,100:6F9A6F&height=90&section=header&text=Run%20Locally&fontSize=22&fontColor=ffffff&fontAlignY=40" />
 </p>
 
 Give clear, copy-paste-ready steps so anyone can clone and run your project on their own machine.
@@ -605,8 +364,289 @@ classDef action fill:#bce8bc,color:#2b2620,stroke:#4a944a,stroke-width:2px;
 class A,C,E screen;
 class B,D action;
 ```
+
+<br><br>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:D9A9BC,100:B36F8F&height=60&section=header&text=Screenshots&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:D9C4A9,100:B3946F&height=90&section=header&text=Appendix&fontSize=22&fontColor=ffffff&fontAlignY=40" />
+</p>
+
+Use the appendix for extra reference material that doesn't fit neatly into the main sections — glossaries, extended notes, or related links.
+
+**Steps:**
+
+1. Identify any extra details, definitions, or references your README doesn't cover elsewhere.
+
+2. Add a heading titled "Appendix" near the bottom of your README.
+
+3. List supplementary content using bullet points or sub-headings.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+- **Glossary:** JWT — JSON Web Token, used for authentication
+- **Related Docs:** [Link to external documentation]
+- **Additional Notes:** Any edge cases or known limitations
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Gather extra reference info] --> B[Add Appendix heading]
+    B --> C[List as bullets or sub-sections]
+    C --> D[Commit and Push]
+    D --> E[Appendix live!]
+classDef screen fill:#94704a,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#e8d5bc,color:#2b2620,stroke:#94704a,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+
+<br><br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:D9CBA9,100:B3A06F&height=90&section=header&text=Contributing&fontSize=22&fontColor=ffffff&fontAlignY=40" />
+</p>
+
+Let others know how they can contribute to your project — pull requests, issues, and coding standards.
+
+**Steps:**
+
+1. Explain how to fork and clone the repository.
+
+2. List the branch naming convention and commit message style you expect.
+
+3. Explain how to open a pull request and what checks it must pass.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a Pull Request
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Fork repository] --> B[Create feature branch]
+    B --> C[Commit changes]
+    C --> D[Push and open PR]
+    D --> E[PR reviewed and merged!]
+classDef screen fill:#94804a,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#e8ddbc,color:#2b2620,stroke:#94804a,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+
+<br><br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A9BCD9,100:6F8FB3&height=90&section=header&text=Demo&fontSize=22&fontColor=ffffff&fontAlignY=40" />
+</p>
+
+Show your project in action with a screenshot, GIF, or live link — this is often the first thing people look at.
+
+**Steps:**
+
+1. Take a screenshot or screen recording of your app (use tools like ScreenToGif or Kap for GIFs).
+
+2. Upload the image/GIF to your repo (e.g. an `assets` folder) or host it externally.
+
+3. Embed it using Markdown image syntax.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+```markdown
+![App Demo](assets/demo.gif)
+```
+
+Or link to a live deployed version:
+
+```markdown
+🔗 [Live Demo](https://your-deployed-app.com)
+```
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Record screenshot or GIF] --> B[Add to repo or host]
+    B --> C[Embed with Markdown]
+    C --> D[Commit and Push]
+    D --> E[Demo visible!]
+classDef screen fill:#4a6f94,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#bcd0e8,color:#2b2620,stroke:#4a6f94,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+
+<br><br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:C4D9A9,100:9AB36F&height=90&section=header&text=Deployment&fontSize=22&fontColor=ffffff&fontAlignY=40" />
+</p>
+
+Explain how to deploy your project so others can get it running in production.
+
+**Steps:**
+
+1. List the platforms used (e.g. Vercel for frontend, Render for backend, MongoDB Atlas for database).
+
+2. Add the exact commands or steps needed to deploy each part.
+
+3. Mention any required environment variables for deployment.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+```bash
+# Build the frontend
+npm run build
+
+# Deploy to Vercel
+vercel --prod
+```
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Choose hosting platforms] --> B[Set environment variables]
+    B --> C[Run build and deploy commands]
+    C --> D[Commit and Push]
+    D --> E[App live in production!]
+classDef screen fill:#6f9440,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#d2e8bc,color:#2b2620,stroke:#6f9440,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+
+<br><br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:B3A9D9,100:816FB3&height=90&section=header&text=Documentation&fontSize=22&fontColor=ffffff&fontAlignY=40" />
+</p>
+
+Link out to detailed documentation for setup, usage, or advanced configuration if your README alone isn't enough.
+
+**Steps:**
+
+1. Decide if documentation lives in a `/docs` folder, a wiki, or an external site.
+
+2. Add a short description of what the docs cover.
+
+3. Link directly to the documentation.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+📚 Full documentation is available [here](./docs/README.md).
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Organize docs location] --> B[Write short summary]
+    B --> C[Add documentation link]
+    C --> D[Commit and Push]
+    D --> E[Docs linked!]
+classDef screen fill:#6f4a94,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#d2bce8,color:#2b2620,stroke:#6f4a94,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+
+<br><br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:BCD9D9,100:6FB3B3&height=90&section=header&text=FAQ&fontSize=22&fontColor=ffffff&fontAlignY=40" />
+</p>
+
+Answer common questions users or contributors might have about your project.
+
+**Steps:**
+
+1. Collect the questions you're most often asked about the project.
+
+2. Format each as a bold question followed by a short answer.
+
+3. Keep answers concise — link to detailed docs for longer explanations.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+**Q: How do I reset my database?**  
+A: Run `npm run seed` to reset and repopulate sample data.
+
+**Q: Can I use this without MongoDB?**  
+A: Currently no, MongoDB is required as the primary database.
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Collect common questions] --> B[Write concise answers]
+    B --> C[Format as Q and A]
+    C --> D[Commit and Push]
+    D --> E[FAQ live!]
+classDef screen fill:#4a9494,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#bce8e8,color:#2b2620,stroke:#4a9494,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+
+<br><br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:D9D0A9,100:B3A56F&height=90&section=header&text=Lessons%20Learned&fontSize=22&fontColor=ffffff&fontAlignY=40" />
+</p>
+
+Share the key challenges you faced and what you learned while building the project — helpful for your own growth and for others in similar situations.
+
+**Steps:**
+
+1. Reflect on the hardest problems you solved during development.
+
+2. Note what approach worked, and what you'd do differently next time.
+
+3. Write each as a short bullet point under a "Lessons Learned" heading.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+- Learned how to structure JWT-based authentication securely across client and server
+- Realized early schema planning saves major refactoring time later
+- Improved error handling by centralizing it in Express middleware
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Reflect on challenges] --> B[Note what worked or didn't]
+    B --> C[Write as bullet points]
+    C --> D[Commit and Push]
+    D --> E[Lessons documented!]
+classDef screen fill:#948a4a,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#e8e0bc,color:#2b2620,stroke:#948a4a,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+
+<br><br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:D9A9BC,100:B36F8F&height=90&section=header&text=Screenshots&fontSize=22&fontColor=ffffff&fontAlignY=40" />
 </p>
 
 Visuals help people quickly understand what your app looks like and does, without running it themselves.
@@ -641,8 +681,11 @@ classDef action fill:#e8bcd5,color:#2b2620,stroke:#944a70,stroke-width:2px;
 class A,C,E screen;
 class B,D action;
 ```
+
+<br><br>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9BCD9,100:6F8FB3&height=60&section=header&text=Tech&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A9BCD9,100:6F8FB3&height=90&section=header&text=Tech&fontSize=22&fontColor=ffffff&fontAlignY=40" />
 </p>
 
 A short technical overview — the core languages, frameworks, and tools that power the project.
@@ -689,3 +732,5 @@ classDef action fill:#bcd0e8,color:#2b2620,stroke:#4a6f94,stroke-width:2px;
 class A,C,E screen;
 class B,D action;
 ```
+
+<br><br>
