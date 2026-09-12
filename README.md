@@ -1,4 +1,6 @@
 <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=170&text=Styling%20Guide%20Of%20README%20file&fontSize=50&descAlign=37&animation=twinkling&fontColor=ffffff&fontAlign=50&section=header" />
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:BCCCAF,100:8CA084&height=90&section=header&text=Adding%20an%20Animated%20Header%20Banner&fontSize=22&fontColor=ffffff&fontAlignY=40" />
 </p>
 
@@ -734,3 +736,6 @@ class B,D action;
 ```
 
 <br><br>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=170&text=Ended&fontSize=50&descAlign=37&animation=twinkling&fontColor=ffffff&fontAlign=50&section=footer" />
+</p>
