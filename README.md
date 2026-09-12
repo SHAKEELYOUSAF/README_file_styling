@@ -486,3 +486,206 @@ classDef action fill:#d2bce8,color:#2b2620,stroke:#6f4a94,stroke-width:2px;
 class A,C,E screen;
 class B,D action;
 ```
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:BCD9D9,100:6FB3B3&height=60&section=header&text=FAQ&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+</p>
+
+Answer common questions users or contributors might have about your project.
+
+**Steps:**
+
+1. Collect the questions you're most often asked about the project.
+
+2. Format each as a bold question followed by a short answer.
+
+3. Keep answers concise — link to detailed docs for longer explanations.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+**Q: How do I reset my database?**  
+A: Run `npm run seed` to reset and repopulate sample data.
+
+**Q: Can I use this without MongoDB?**  
+A: Currently no, MongoDB is required as the primary database.
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Collect common questions] --> B[Write concise answers]
+    B --> C[Format as Q and A]
+    C --> D[Commit and Push]
+    D --> E[FAQ live!]
+classDef screen fill:#4a9494,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#bce8e8,color:#2b2620,stroke:#4a9494,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+
+
+```
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:D9D0A9,100:B3A56F&height=60&section=header&text=Lessons%20Learned&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+</p>
+
+Share the key challenges you faced and what you learned while building the project — helpful for your own growth and for others in similar situations.
+
+**Steps:**
+
+1. Reflect on the hardest problems you solved during development.
+
+2. Note what approach worked, and what you'd do differently next time.
+
+3. Write each as a short bullet point under a "Lessons Learned" heading.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+- Learned how to structure JWT-based authentication securely across client and server
+- Realized early schema planning saves major refactoring time later
+- Improved error handling by centralizing it in Express middleware
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Reflect on challenges] --> B[Note what worked or didn't]
+    B --> C[Write as bullet points]
+    C --> D[Commit and Push]
+    D --> E[Lessons documented!]
+classDef screen fill:#948a4a,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#e8e0bc,color:#2b2620,stroke:#948a4a,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9C4A9,100:6F9A6F&height=60&section=header&text=Run%20Locally&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+</p>
+
+Give clear, copy-paste-ready steps so anyone can clone and run your project on their own machine.
+
+**Steps:**
+
+1. Add the clone command with your repo URL.
+
+2. List commands to install dependencies for both client and server (if applicable).
+
+3. Include the command to start the development server.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/your-repo.git
+
+# Go to the project directory
+cd your-repo
+
+# Install dependencies
+npm install
+
+# Start the server
+npm run dev
+```
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Clone repository] --> B[Install dependencies]
+    B --> C[Set environment variables]
+    C --> D[Run start command]
+    D --> E[App running locally!]
+classDef screen fill:#4a944a,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#bce8bc,color:#2b2620,stroke:#4a944a,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:D9A9BC,100:B36F8F&height=60&section=header&text=Screenshots&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+</p>
+
+Visuals help people quickly understand what your app looks like and does, without running it themselves.
+
+**Steps:**
+
+1. Capture clear screenshots of your app's key screens (dashboard, login, main feature).
+
+2. Save them in an `assets` or `screenshots` folder in your repo.
+
+3. Embed each with Markdown image syntax, optionally with a caption.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+```markdown
+![Dashboard View](assets/screenshots/dashboard.png)
+![Login Page](assets/screenshots/login.png)
+```
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[Capture screenshots] --> B[Save in assets folder]
+    B --> C[Embed with Markdown]
+    C --> D[Commit and Push]
+    D --> E[Screenshots visible!]
+classDef screen fill:#944a70,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#e8bcd5,color:#2b2620,stroke:#944a70,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A9BCD9,100:6F8FB3&height=60&section=header&text=Tech&fontSize=22&fontColor=ffffff&fontAlignY=65" />
+</p>
+
+A short technical overview — the core languages, frameworks, and tools that power the project.
+
+**Steps:**
+
+1. List the primary tech stack in one line (client, server, database).
+
+2. Optionally mention key libraries or tools used for specific features (auth, state management, etc.).
+
+3. Keep it brief — detailed badges belong in a separate "Tech Stack Badges" section.
+
+4. Save, commit, and push.
+
+**Demo:**
+
+**Frontend**
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</p>
+
+**Backend**
+<p align="left">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+</p>
+
+**Database**
+<p align="left">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p>
+
+**Workflow:**
+
+```mermaid
+flowchart LR
+    A[List client tech] --> B[List server tech]
+    B --> C[List database and tools]
+    C --> D[Commit and Push]
+    D --> E[Tech overview live!]
+classDef screen fill:#4a6f94,color:#ffffff,stroke:#2b2620,stroke-width:2px;
+classDef action fill:#bcd0e8,color:#2b2620,stroke:#4a6f94,stroke-width:2px;
+class A,C,E screen;
+class B,D action;
+```
